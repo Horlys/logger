@@ -1,5 +1,5 @@
 {
-  "name": "horlys-logger",
+  "name": "@horlys/logger",
   "description": "🪵 A lightweight and easy-to-use logging utility for JavaScript projects. ",
   "version": "1.0.0",
   "keywords": [
