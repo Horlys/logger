@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"],
+      "horlys-logger": ["./src/index.ts"]
+    },
+
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+
+  "include": ["src", "examples", "tsup.config.ts"],
+  "exclude": ["node_modules", "dist"]
+}
