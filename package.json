@@ -1,8 +1,28 @@
 {
   "name": "horlys-logger",
+  "description": "🪵 A lightweight and easy-to-use logging utility for JavaScript projects. ",
+  "version": "1.0.0",
+  "keywords": [
+    "log",
+    "logger",
+    "color",
+    "utils",
+    "horlys"
+  ],
+  "author": "Horlys",
+  "repository": {
+    "url": "https://github.com/Horlys/logger",
+    "type": "git"
+  },
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "exports": {
     "./package.json": "./package.json",
